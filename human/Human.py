@@ -47,6 +47,9 @@ class Child(Walk, Woman, Man):
         self.name = "Child"
         print(self.name)
 
+    def doSomething(self):
+        pass
+
 
 if __name__ == "__main__":
     people = Human()
